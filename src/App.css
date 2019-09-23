@@ -1,2 +1,51 @@
-.App {
+.PokemonCard {
+  display: flex;
+  border-style: solid;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20em;
+  padding: 0.4em;
+  flex-direction: column;
+  margin: 20px;
+}
+
+img {
+  max-width: 50%;
+  height: auto;
+  border-style: solid;
+  align-self: center;
+  padding: 0.4em;
+  margin: 0.4em;
+}
+
+h2 {
+  align-self: center;
+  padding: 0.1em;
+  margin: 0.1em;
+  font-weight: bold;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.stats {
+  align-self: center;
+  font-weight: bold;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.type {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.elementtype {
+  padding: 0.1em;
+  margin: 0.1em;
+  border-style: solid;
+  border-width: thin;
+  width: 6em;
+  border-radius: 0.75em;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
