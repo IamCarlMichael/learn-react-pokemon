@@ -1,12 +1,10 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
-import rawData from "./pokemon/pokemon";
 
 const SinglePokemon = props => {
   return (
     <div className={"PokemonCard"}>
-      <img src={require(`./pokemon/${props.id}.png`)} alt="Picture" />
+      <img src={require(`./pokemon/${props.id}.png`)} alt="Hello" />
       <h2>{props.name}</h2>
       <h4 className={"type"}>
         {props.type.map(element => (
